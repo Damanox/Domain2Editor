@@ -1,0 +1,12 @@
+{
+	"name": "domain2editor",
+	"description": "PW domain2.data editor",
+	"copyright": "Copyright © 2014, Beast",
+	"authors": ["Beast"],
+	"targetPath": "bin",
+	"targetType": "executable",
+	"lflags-windows-dmd": ["/subsystem:windows"],
+	"dependencies": {
+        "dfl2": "~master"
+	}
+}
